@@ -1,0 +1,29 @@
+What is the order of the events in a page life cycle?
+There are eight events as given below that take place in an order to successfully render a page:
+
+Page_PreInit
+Page_Init
+Page_InitComplete
+Page_PreLoad
+Page_Load
+Page_LoadComplete
+Page_PreRender
+Render
+
+. What is an EXE and a DLL?
+EXE and DLLs are assembly executable modules.
+
+EXE is an executable file that runs the application for which it is designed. An EXE is produced when we build an application. Therefore the assemblies are loaded directly when we run an EXE. However, an EXE cannot be shared with the other applications.
+
+Dynamic Link Library (DLL) is a library that consists of code that needs to be hidden. The code is encapsulated inside this library. An application can consist of many DLLs which can be shared with the other programs and applications.
+
+What is the difference between an abstract class and an interface?
+
+The main difference between an abstract class and an interface are listed below:
+
+Abstract Class	Interface
+Used to declare properties, events, methods, and fields as well.	Fields cannot be declared using interfaces.
+Provides the partial implementation of functionalities that must be implemented by inheriting classes.	Used to declare the behavior of an implementing class.
+Different kinds of access modifiers like private, public, protected, etc. are supported.	Only public access modifier is supported.
+It can contain static members.	It does not contain static members.
+Multiple inheritances cannot be achieved.	Multiple inheritances are achieved.
